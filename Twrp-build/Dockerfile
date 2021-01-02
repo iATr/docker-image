@@ -31,7 +31,7 @@ RUN sudo git clone https://github.com/akhilnarang/scripts /scripts
 
 RUN cd /scripts && bash setup/android_build_env.sh && bash setup/install_android_sdk.sh
 
-RUN sudo apt-get install gcc-aarch64-linux-gnu g++-aarch64-linux-gnu -y
+RUN sudo apt-get install gcc-aarch64-linux-gnu g++-aarch64-linux-gnu gcc-arm-linux-gnueabi g++-arm-linux-gnueabi -y
 
 RUN cd .. && sudo rm -rf /scripts
 
