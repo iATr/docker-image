@@ -38,4 +38,4 @@ RUN cd .. && sudo rm -rf /scripts
 # Set environment variable
 ENV ARCH arm64
 ENV CROSS_COMPILE aarch64-linux-gnu-
-ENV CROSS_CPMPILE_ARM32 arm-linux-gnu-
+ENV CROSS_CPMPILE_ARM32 arm-linux-gnueabi-
